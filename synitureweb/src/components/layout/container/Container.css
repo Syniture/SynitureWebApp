@@ -1,0 +1,69 @@
+/* Phone */
+.normal {
+  padding: 0;
+  margin: 0 4%;
+}
+.large {
+  padding: 0;
+  margin: 0 4%;
+}
+
+ /* XS Phone  */
+@media(max-width: 320px) {
+  .normal {
+    margin: 0 3%;
+  }
+  .large {
+    margin: 0 3%;
+  }
+}
+
+/* S Tablet */
+@media(min-width: 576px) {
+  .normal {
+    margin: 0 5%;
+  }
+  .large {
+    margin: 0 4%;
+  }
+}
+
+/* S Desktop / Tablet */
+@media(min-width: 768px) {
+  .normal {
+    margin: 0 8%;
+  }
+  .large {
+    margin: 0 4%;
+  }
+}
+
+/* Desktop */
+@media(min-width: 992px) {
+  .normal {
+    margin: 0 12%;
+  }
+  .large {
+    margin: 0 6%;
+  }
+}
+
+/* L Desktop */
+@media(min-width: 1200px) {
+  .normal {
+    margin: 0 22%;
+  }
+  .large {
+    margin: 0 8%;
+  }
+}
+
+/* XL Desktop */
+@media(min-width: 1600px) {
+  .normal {
+    margin: 0 26%;
+  }
+  .large {
+    margin: 0 16%;
+  }
+}
