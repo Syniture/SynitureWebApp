@@ -1,0 +1,21 @@
+.navItems {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  text-decoration:none;
+}
+
+@media (min-width: 768px) {
+  .navItems {
+    width: 100%;
+    margin: 0;
+    flex-flow: row;
+    align-items: center;
+  }
+  .phoneContainer {
+    margin: 0 15px;
+  }
+}

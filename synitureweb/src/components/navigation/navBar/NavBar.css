@@ -1,0 +1,61 @@
+.toolbar {
+  /* position: absolute; */
+  height:88px;
+  width: 100%;
+  /* top: 0; */
+  z-index: 900;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  background-color: #fff;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar nav {
+  height: 100%;
+}
+
+.logo {
+  margin-left: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.logo img {
+  max-height: 46px;
+}
+
+@media (max-width: 767px) {
+  .desktopNav {
+    display: none;
+  }
+}
+
+.mobileNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mobileNav div {
+  margin: 0 15px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin-left: 30px;
+  }
+  .mobileNav {
+    display: none;
+  }
+}

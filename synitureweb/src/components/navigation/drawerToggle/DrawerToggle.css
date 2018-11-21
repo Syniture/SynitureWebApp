@@ -1,0 +1,25 @@
+.drawerToggle {
+    width: 35px;
+    height: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.drawerToggle div {
+    width: 90%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #ffff;
+}
+
+@media (min-width: 768px) {
+    .drawerToggle {
+        display: none;
+    }
+}

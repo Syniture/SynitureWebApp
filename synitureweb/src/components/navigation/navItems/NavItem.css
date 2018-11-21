@@ -1,0 +1,23 @@
+.navItem {
+  margin: 15px 0;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .navItem {
+    margin: 0 15px;
+  }
+}
+
+.navItem a {
+  color: #0F241F;
+  opacity: 1;
+}
+
+.navItem a:hover,
+.navItem a:active,
+.navItem a.active {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s linear;
+}

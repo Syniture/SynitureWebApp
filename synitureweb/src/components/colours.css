@@ -1,0 +1,48 @@
+.primary {
+    color: #0072FF;
+  }
+.primaryBG {
+    background-color: #0072FF;
+  }
+.primaryFill {
+  fill: #0072FF;
+}
+
+.secondary {
+    color: #5B86E5;
+  }
+.secondaryBG {
+    background-color: #5B86E5;
+  }
+.dark {
+    color: #0F241F;
+  }
+.offWhite {
+    color: #FFFDFF;
+  }
+.offWhiteBG {
+    background-color: #FFFDFF;
+  }
+
+.gradientBG {
+  background: -webkit-gradient(linear, right top, left bottom, from(#5B86E5), to(#0072FF));
+  background: linear-gradient(to left bottom, #5B86E5 0%, #0072FF 100%);
+}
+.gradientBGY {
+	background: -webkit-gradient(linear, left top, left bottom, from(#5B86E5), to(#0072FF));
+	background: linear-gradient(to bottom, #5B86E5, #0072FF);
+}
+
+/* X = Left to Right Y = Up to Down */
+/* .textGradientX {
+	background: -webkit-gradient(linear, right top, left top, from(#5B86E5), to(#0072FF));
+	background: linear-gradient(to left, #5B86E5, #0072FF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.textGradientY {
+	background: -webkit-gradient(linear, left top, left bottom, from(#5B86E5), to(#0072FF));
+	background: linear-gradient(to bottom, #5B86E5, #0072FF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+} */
